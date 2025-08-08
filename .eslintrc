@@ -23,7 +23,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/state-in-constructor": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
@@ -55,6 +55,7 @@
     "react/no-unescaped-entities": "warn",
     "react/jsx-props-no-spreading": "off",
     "operator-assignment": ["warn", "always"],
-    "radix": "off"
+    "radix": "off",
+    "import/newline-after-import": "off"
   }
 }
